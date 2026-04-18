@@ -6,7 +6,7 @@
 /*   By: mohassaf <mohassaf@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/08 18:47:53 by mohassaf          #+#    #+#             */
-/*   Updated: 2025/12/13 13:49:52 by mohassaf         ###   ########.fr       */
+/*   Updated: 2025/12/23 17:17:19 by mohassaf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static int	is_type(char c)
 {
 	return (c == 'c' || c == 's' || c == 'p' || c == 'd' || c == 'i' || c == 'u'
-		|| c == 'x' || c == 'X' || c == '%');
+		|| c == 'x' || c == 'X' || c == '%' || c == 'a');
 }
 
 static void	one(t_flags *list, const char *str, int *index)

@@ -6,7 +6,7 @@
 /*   By: mohassaf <mohassaf@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 12:46:45 by mohassaf          #+#    #+#             */
-/*   Updated: 2025/12/23 14:11:19 by mohassaf         ###   ########.fr       */
+/*   Updated: 2026/01/23 13:09:32 by mohassaf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,3 +52,7 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (count);
 }
+/*int main(void)
+{
+	ft_printf("%.2d", 2);
+}*/
